@@ -86,7 +86,7 @@ def train(activity,time,sets):
             double_digit(str(numbs))
             print("\nSeconds")
             
-                # Pause for 1 second between batches.
+                
             sleep(1)
             numbs +=1
 
