@@ -110,18 +110,20 @@ def train(activity,time,sets):
 # for rounds in range(1,i+1):
 #     display_title_bar(f"Round {rounds}!")
 def tabata():
-    i = int(input("Enter how many rounds?"))
-    for rounds in range(1,i+1):
-        display_title_bar(f"Round {rounds}")
-        sleep (4)   
-        for sets in range(1,9):
-            sets = sets
-                
-            train("Train!",20,sets)
+    try:
+        i = int(input("Enter how many rounds?"))
+        for rounds in range(1,i+1):
+            display_title_bar(f"Round {rounds}")
+            sleep (4)   
+            for sets in range(1,9):
+                sets = sets
+                    
+                train("Train!",20,sets)
 
-            train("Rest...",10,sets)
-        rest("Rest Between Rounds",60)
-
+                train("Rest...",10,sets)
+            rest("Rest Between Rounds",60)
+    except:
+        sys.exit("That is not a valid entry please start again ")
 def custom():
     try:
         work_time = int(input("Enter work time in seconds: "))
