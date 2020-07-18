@@ -57,15 +57,14 @@ def double_digit(tis):
 
     strings_by_line = zip(*strings_by_column)
 
-    # Work out how much space we will need for the longest line of
-    # each multiline string
+   
     max_length_by_column = [
         max([len(s) for s in col_strings])
         for col_strings in strings_by_column
     ]
 
     for parts in strings_by_line:
-        # Pad strings in each column so they are the same length
+
         padded_strings = [
             parts[i].ljust(max_length_by_column[i])
             for i in range(len(parts))
