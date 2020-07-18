@@ -126,5 +126,5 @@ def custom():
                 train("Rest...",rest_time,sets)
             rest("Rest Between Rounds",rest_between_sets)
     except:
-        sys.exit("That is not a valid entry please start again ")
+        sys.exit("That is not a valid entry please start again: ")
 
