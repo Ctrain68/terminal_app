@@ -22,7 +22,7 @@ elif "--instruct" in sys.argv:
     Option 1: Tabata timing, 20 seconds work, 10 seconds rest, 8 sets.
     If you choose to enter multiple rounds a break of 60 seconds shall be used inbetween eaech round
     Option 2: Fully customizable timer, be creative! Select, work time, rest time, number of sets, number of rounds
-    and rest time between rounds.
+    & rest time between rounds.
     Be Creative and have fun!""")
 
 
