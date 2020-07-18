@@ -8,7 +8,7 @@ import sys
 from numerals import numbers
 
 def display_title_bar(stage):
-    # Clears the terminal screen, and displays a title bar.
+    
     os.system('clear')
               
     print("\t**********************************************")
@@ -17,17 +17,6 @@ def display_title_bar(stage):
 
 
 
-# def round_rest():
-#     for numb in numbers:
-#         display_title_bar("Break....")
-
-#         print("\n\n\a")
-#         print(numbers[sets])
-#         print("\nSet")
-    
-#         print(numbers[numb])
-#         print("\nSeconds")
-#         sleep(1)
 
 
 def rest(activity,time):
