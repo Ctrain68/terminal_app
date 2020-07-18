@@ -41,7 +41,7 @@ def double_digit(tis):
     
     lstkey = []
 
-    # if len(tis) > 1:
+    
     for s in tis:
         lstkey.append(int(s))
 
@@ -54,9 +54,7 @@ def double_digit(tis):
 
     strings_by_column = [s.split('\n') for s in lst1]
 
-    # Group the split strings by line
-    # In this example, all strings are the same, so for each line we
-    # will have three copies of the same string.
+
     strings_by_line = zip(*strings_by_column)
 
     # Work out how much space we will need for the longest line of
