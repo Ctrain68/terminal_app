@@ -23,7 +23,7 @@ elif "--instruct" in sys.argv:
     If you choose to enter multiple rounds a break of 60 seconds shall be used inbetween eaech round
     Option 2: Fully customizable timer, be creative! Select, work time, rest time, number of sets, number of rounds
     and rest time between rounds.
-    Be Creative and have fun!""")
+    Be Creative and have fun!"""
 
 
 
