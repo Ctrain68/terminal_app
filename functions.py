@@ -12,7 +12,7 @@ def display_title_bar(stage):
     os.system('clear')
               
     print("\t**********************************************")
-    print(f"\t***             {stage}                   ***")
+    print(f"\t***             {stage}                   **")
     print("\t**********************************************")
 
 
