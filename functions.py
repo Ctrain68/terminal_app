@@ -1,6 +1,7 @@
 import os
 import time
 from time import sleep
+import sys
 
 
 
@@ -37,7 +38,7 @@ def rest(activity,time):
 
             print("\n\n\a")
         
-            print(numbers[numbs])
+            double_digit(str(numbs))
             print("\nSeconds")
         
             # Pause for 1 second between batches.
@@ -93,7 +94,7 @@ def train(activity,time,sets):
             display_title_bar(activity)
 
             print("\n\n\a")
-            print(numbers[sets])
+            double_digit(str(sets))
             print("\nSet")
             
             double_digit(str(numbs))
@@ -122,19 +123,22 @@ def tabata():
         rest("Rest Between Rounds",60)
 
 def custom():
-    work_time = int(input("Enter work time in seconds: "))
-    rest_time = int(input("Enter rest time in seconds: "))
-    sets_range = int(input("Enter how many sets?: "))
-    rest_between_sets = int(input("Enter how much rest between sets: "))
-    i = int(input("Enter how many rounds?"))
-    for rounds in range(1,i+1):
-        display_title_bar(f"Round {rounds}")
-        sleep (4)   
-        for sets in range(1,sets_range+1):
-            sets = sets
-                
-            train("Train!",work_time,sets)
+    try:
+        work_time = int(input("Enter work time in seconds: "))
+        rest_time = int(input("Enter rest time in seconds: "))
+        sets_range = int(input("Enter how many sets?: "))
+        rest_between_sets = int(input("Enter how much rest between sets: "))
+        i = int(input("Enter how many rounds?"))
+        for rounds in range(1,i+1):
+            display_title_bar(f"Round {rounds}")
+            sleep (4)   
+            for sets in range(1,sets_range+1):
+                sets = sets
+                    
+                train("Train!",work_time,sets)
 
-            train("Rest...",rest_time,sets)
-        rest("Rest Between Rounds",rest_between_sets)
+                train("Rest...",rest_time,sets)
+            rest("Rest Between Rounds",rest_between_sets)
+    except:
+        sys.exit("That is not a valid entry please start again ")
 
