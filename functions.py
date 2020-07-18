@@ -93,8 +93,6 @@ def train(activity,time,sets):
 
 
 
-# for rounds in range(1,i+1):
-#     display_title_bar(f"Round {rounds}!")
 def tabata():
     try:
         i = int(input("Enter how many rounds?"))
