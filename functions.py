@@ -86,7 +86,7 @@ def double_digit(tis):
     
 
 
-def train(activity,time):
+def train(activity,time,sets):
     numbs = 1
     while numbs <= time :
             
@@ -108,16 +108,33 @@ def train(activity,time):
 
 # for rounds in range(1,i+1):
 #     display_title_bar(f"Round {rounds}!")
-i = int(input("Enter how many rounds?"))
-for rounds in range(1,i+1):
-    display_title_bar(f"Round {rounds}")
-    sleep (4)   
-    for sets in range(1,3):
-        
-        train("Train!",30)
+def tabata():
+    i = int(input("Enter how many rounds?"))
+    for rounds in range(1,i+1):
+        display_title_bar(f"Round {rounds}")
+        sleep (4)   
+        for sets in range(1,9):
+            sets = sets
+                
+            train("Train!",20,sets)
 
-        train("Rest...",4)
-    rest("Rest Between Rounds",10)
+            train("Rest...",10,sets)
+        rest("Rest Between Rounds",60)
 
+def custom():
+    work_time = int(input("Enter work time in seconds: "))
+    rest_time = int(input("Enter rest time in seconds: "))
+    sets_range = int(input("Enter how many sets?: "))
+    rest_between_sets = int(input("Enter how much rest between sets: "))
+    i = int(input("Enter how many rounds?"))
+    for rounds in range(1,i+1):
+        display_title_bar(f"Round {rounds}")
+        sleep (4)   
+        for sets in range(1,sets_range+1):
+            sets = sets
+                
+            train("Train!",work_time,sets)
 
+            train("Rest...",rest_time,sets)
+        rest("Rest Between Rounds",rest_between_sets)
 
