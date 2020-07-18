@@ -1,3 +1,6 @@
+#!/usr/sbin/python
+
+
 import os
 import time
 from time import sleep
