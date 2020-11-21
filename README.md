@@ -41,7 +41,7 @@ For cancelling the timer, please enter ctril+c and this shall terminate the prog
 2. select 3
 3. Program prompts user to select 1 or 2
 
-![Test_Case](docs/Colin-Forster-T1A2-13-test_one_test_case_one.png)
+![Test_Case](docs/Colin-Forster-T1A2-13-test_one_test_case_one.PNG)
 
 
 #### Test Case Two
@@ -50,7 +50,7 @@ For cancelling the timer, please enter ctril+c and this shall terminate the prog
 2. select 1
 3. Program starts the Tabata function asking for Rounds
 
-![Test_Case](docs/Colin-Forster-T1A2-13-test_one_test_case_two.png)
+![Test_Case](docs/Colin-Forster-T1A2-13-test_one_test_case_two.PNG)
 
 ### Test Two
 
@@ -62,7 +62,7 @@ For cancelling the timer, please enter ctril+c and this shall terminate the prog
 4. User enters $%
 5. Program exits telling the user that they entered and invalid input and to start again
 
-![Test_Case](docs/Colin-Forster-T1A2-13-test_two_test_case_one.png)
+![Test_Case](docs/Colin-Forster-T1A2-13-test_two_test_case_one.PNG)
 
 #### Test Case Two
 
@@ -72,7 +72,7 @@ For cancelling the timer, please enter ctril+c and this shall terminate the prog
 4. User enters 30
 5. Program prompts user to enter rest time
 
-![Test_Case](docs/Colin-Forster-T1A2-13-test_two_test_case_two.png)
+![Test_Case](docs/Colin-Forster-T1A2-13-test_two_test_case_two.PNG)
 
 
 ## Manual Testing
@@ -157,15 +157,15 @@ Upon completion of the timer the app closes.
 
 ## Project management process
 
-![Trello](docs/Colin-Forster-T1A2-13-project-mgt-checklist1.png)
-![Trello](docs/Colin-Forster-T1A2-13-project-mgt-checklist2.png)
-![Trello](docs/Colin-Forster-T1A2-13-project-mgt-checklist3.png)
-![Trello](docs/Colin-Forster-T1A2-13-project-mgt-checklist4.png)
-![Trello](docs/Colin-Forster-T1A2-13-project-mgt-checklist5.png)
-![Trello](docs/Colin-Forster-T1A2-13-project-mgt-checklist6.png)
-![Trello](docs/Colin-Forster-T1A2-13-project-mgt-checklist7.png)
-![Trello](docs/Colin-Forster-T1A2-13-project-mgt-checklist8.png)
-![Trello](docs/Colin-Forster-T1A2-13-project-mgt-checklist9.png)
-![Trello](docs/Colin-Forster-T1A2-13-project-mgt-checklist10.png)
+![Trello](docs/Colin-Forster-T1A2-13-project-mgt-checklist1.PNG)
+![Trello](docs/Colin-Forster-T1A2-13-project-mgt-checklist2.PNG)
+![Trello](docs/Colin-Forster-T1A2-13-project-mgt-checklist3.PNG)
+![Trello](docs/Colin-Forster-T1A2-13-project-mgt-checklist4.PNG)
+![Trello](docs/Colin-Forster-T1A2-13-project-mgt-checklist5.PNG)
+![Trello](docs/Colin-Forster-T1A2-13-project-mgt-checklist6.PNG)
+![Trello](docs/Colin-Forster-T1A2-13-project-mgt-checklist7.PNG)
+![Trello](docs/Colin-Forster-T1A2-13-project-mgt-checklist8.PNG)
+![Trello](docs/Colin-Forster-T1A2-13-project-mgt-checklist9.PNG)
+![Trello](docs/Colin-Forster-T1A2-13-project-mgt-checklist10.PNG)
 
 
